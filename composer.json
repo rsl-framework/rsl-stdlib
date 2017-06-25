@@ -1,0 +1,32 @@
+{
+    "name":         "rsl-framework/rsl-stdlib",
+    "description":  "This is the Std Lib Component from RSL Framework.",
+    "type":         "library",  
+  
+  "homepage":     "https://github.com/rsl-framework/rsl-stdlib.git",
+  
+  
+  "license":      "MIT",
+  "keywords":     ["framework", "rsl", "stdlib"],
+	"minimum-stability": "dev",
+	"version" : "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "RSL\\StdLib\\": "src/"
+    }
+  },
+
+  "require": {
+    "php" : "^5.6 || ^7.0",
+    "rsl-framework/rsl-stdlib": "*",
+    "ext-pdo": "*"
+  },
+  "authors": [
+    {
+      "name":     "Sergey L Romanow",
+      "email":    "sergey.l.romanow@gmail.com",
+	  "homepage": "http://www.MyRomanow.ru",
+      "role":     "Founder and project lead"
+    }
+  ],
+}
